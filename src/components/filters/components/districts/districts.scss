@@ -1,0 +1,21 @@
+.districts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.districts__title {
+  font: var(--font-bold-14px);
+  color: var(--color-dark);
+}
+
+.districts__buttons {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  align-self: stretch;
+  flex-wrap: wrap;
+}

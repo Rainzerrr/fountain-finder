@@ -1,0 +1,50 @@
+{
+  "header": {
+    "home": "Inicio",
+    "discover": "Descubrir",
+    "contact": "Contacto"
+  },
+  "user": {
+    "sign-up": "Registrarse",
+    "login": "Iniciar Sesión"
+  },
+  "detail-card": {
+    "available": "Disponible",
+    "unavailable": "No Disponible"
+  },
+  "filters": {
+    "title": "Filtros",
+    "availability": {
+      "title": "Disponibilidad",
+      "buttons": {
+        "available": "Disponible",
+        "unavailable": "No Disponible"
+      }
+    },
+    "districts": {
+      "title": "Distritos"
+    },
+    "types": {
+      "title": "Tipo de Fuente",
+      "wallace": "Wallace",
+      "mat_source": "Mástil Fuente",
+      "albien": "Albiana",
+      "totem": "Tótem",
+      "arceau": "Arco",
+      "petillant": "Espumosa",
+      "poing_eau": "Puño de Agua",
+      "millenaire": "Milenario",
+      "fountain_borne": "Fuente Borne",
+      "fountain_bois": "Fuente de Madera"
+    },
+    "buttons": {
+      "apply": "Aplicar",
+      "reset": "Restablecer"
+    }
+  },
+  "languages": {
+    "fr": "Francés",
+    "en": "Inglés",
+    "es": "Español"
+  }
+}

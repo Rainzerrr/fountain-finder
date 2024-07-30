@@ -1,0 +1,50 @@
+{
+  "header": {
+    "home": "Home",
+    "discover": "Discover",
+    "contact": "Contact"
+  },
+  "user": {
+    "sign-up": "Sign Up",
+    "login": "Login"
+  },
+  "detail-card": {
+    "available": "Available",
+    "unavailable": "Unavailable"
+  },
+  "filters": {
+    "title": "Filters",
+    "availability": {
+      "title": "Availability",
+      "buttons": {
+        "available": "Available",
+        "unavailable": "Unavailable"
+      }
+    },
+    "districts": {
+      "title": "Districts"
+    },
+    "types": {
+      "title": "Type of Fountain",
+      "wallace": "Wallace",
+      "mat_source": "Source Mast",
+      "albien": "Albian",
+      "totem": "Totem",
+      "arceau": "Arch",
+      "petillant": "Sparkling",
+      "poing_eau": "Water Fist",
+      "millenaire": "Millennium",
+      "fountain_borne": "Fountain Borne",
+      "fountain_bois": "Wood Fountain"
+    },
+    "buttons": {
+      "apply": "Apply",
+      "reset": "Reset"
+    }
+  },
+  "languages": {
+    "fr": "French",
+    "en": "English",
+    "es": "Spanish"
+  }
+}

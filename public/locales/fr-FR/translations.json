@@ -1,0 +1,50 @@
+{
+  "header": {
+    "home": "Accueil",
+    "discover": "Découvrir",
+    "contact": "Contact"
+  },
+  "user": {
+    "sign-up": "Inscription",
+    "login": "Connexion"
+  },
+  "detail-card": {
+    "available": "Disponible",
+    "unavailable": "Indisponible"
+  },
+  "filters": {
+    "title": "Filtres",
+    "availability": {
+      "title": "Disponibilité",
+      "buttons": {
+        "available": "Disponible",
+        "unavailable": "Indisponible"
+      }
+    },
+    "districts": {
+      "title": "Arrondissements"
+    },
+    "types": {
+      "title": "Type de fontaine",
+      "wallace": "Wallace",
+      "mat_source": "Mât source",
+      "albien": "Albien",
+      "totem": "Totem",
+      "arceau": "Arceau",
+      "petillant": "Pétillante",
+      "poing_eau": "Poing d'eau",
+      "millenaire": "Millénaire",
+      "fountain_borne": "Borne fontaine",
+      "fountain_bois": "Fontaine Bois"
+    },
+    "buttons": {
+      "apply": "Appliquer",
+      "reset": "Rétablir"
+    }
+  },
+  "languages": {
+    "fr": "Français",
+    "en": "Anglais",
+    "es": "Espagnol"
+  }
+}

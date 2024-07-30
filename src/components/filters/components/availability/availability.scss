@@ -1,0 +1,19 @@
+.availability {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}
+
+.availability__title {
+  font: var(--font-bold-14px);
+  color: var(--color-dark);
+}
+
+.availability__buttons {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  align-self: stretch;
+}

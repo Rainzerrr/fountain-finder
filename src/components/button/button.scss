@@ -1,0 +1,41 @@
+.button {
+  all: unset;
+  display: flex;
+  padding: 10px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  font: var(--font-semibold-13px);
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: 2px solid var(--color-dark);
+    outline-offset: -2px;
+  }
+}
+
+.button--contained {
+  background-color: var(--color-primary);
+  transition: background-color 0.2s ease-in-out;
+  color: var(--color-light);
+
+  &:hover {
+    background-color: var(--color-primary-700);
+  }
+}
+
+.button--outlined {
+  outline: 2px solid var(--color-primary);
+  transition: outline-color 0.2s ease-in-out;
+  outline-offset: -2px;
+
+  &:hover {
+    outline-color: var(--color-primary-700);
+  }
+}
+
+.button--fullwidth {
+  align-self: stretch;
+}

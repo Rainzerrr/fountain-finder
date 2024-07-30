@@ -1,0 +1,32 @@
+.filters {
+  display: flex;
+  width: 300px;
+  padding: 40px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+
+.filters__title {
+  font: var(--font-bold-20px);
+  color: var(--color-dark);
+}
+
+.filters__section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  align-self: stretch;
+}
+
+.filters__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}

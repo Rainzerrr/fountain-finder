@@ -1,0 +1,61 @@
+@import url("https://unpkg.com/leaflet@1.7.1/dist/leaflet.css");
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("/fonts/Roboto-Bold.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("/fonts/Roboto-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/fonts/Roboto-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  /* Fonts */
+  --font-bold-20px: normal 700 1.25rem "Roboto-Bold", sans-serif;
+  --font-bold-14px: normal 700 0.875rem "Roboto-Bold", sans-serif;
+  --font-bold-13px: normal 700 0.8125rem "Roboto-Bold", sans-serif;
+
+  --font-semibold-16px: normal 600 1rem "Roboto-Medium", sans-serif;
+  --font-semibold-14px: normal 600 0.875rem "Roboto-Medium", sans-serif;
+  --font-semibold-13px: normal 600 0.8125rem "Roboto-Medium", sans-serif;
+  --font-semibold-12px: normal 600 0.75rem "Roboto-Medium", sans-serif;
+
+  --font-medium-16px: normal 500 1rem "Roboto-Medium", sans-serif;
+  --font-medium-14px: normal 500 0.875rem "Roboto-Medium", sans-serif;
+  --font-medium-13px: normal 500 0.8125rem "Roboto-Medium", sans-serif;
+  --font-medium-12px: normal 500 0.75rem "Roboto-Medium", sans-serif;
+
+  --font-regular-16px: normal 400 1rem "Roboto-Regular", sans-serif;
+  --font-regular-14px: normal 400 0.875rem "Roboto-Regular", sans-serif;
+  --font-regular-13px: normal 400 0.8125rem "Roboto-Regular", sans-serif;
+  --font-regular-12px: normal 400 0.75rem "Roboto-Regular", sans-serif;
+
+  /* Colors */
+  --color-dark: #000000;
+  --color-light: #ffffff;
+  --color-dark-900: #6b6b6b;
+  --color-dark-700: #dcdcdc;
+  --color-dark-500: #f3f3f3;
+
+  --color-primary-900: #19a04f;
+  --color-primary-700: #25c264;
+  --color-primary: #61df93;
+
+  --color-available: #2cc13a;
+  --color-unavailable: #dc2626;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
