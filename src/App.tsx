@@ -9,7 +9,7 @@ import "./App.scss";
 const App = () => {
   return (
     <div className="app">
-      {/* <Header /> */}
+      <Header />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />

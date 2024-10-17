@@ -4,7 +4,15 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  // overflow: hidden;
+}
+
+.discover__background-home {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .discover__background {
@@ -14,7 +22,7 @@
   align-self: stretch;
   height: 100dvh;
   width: calc(100dvw - 17px);
-  animation: fadeIn 1s 0.5s forwards;
+  animation: fadeIn 1s forwards;
   opacity: 0;
   object-fit: cover;
   mask-image: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.6));
@@ -30,13 +38,13 @@
 .discover__background-code-1 {
   top: 200px;
   left: 0px;
-  animation: displayCodeFromLeft 1s 1s forwards;
+  animation: displayCodeFromLeft 1s forwards;
 }
 
 .discover__background-code-2 {
   top: 200px;
   right: 0px;
-  animation: displayCodeFromRight 1s 1s forwards;
+  animation: displayCodeFromRight 1s forwards;
 }
 
 .discover__main-page {
@@ -44,15 +52,15 @@
   justify-content: center;
   align-items: center;
   height: 100dvh;
-  width: 100vw;
+  width: 100%;
 }
 
 .discover__text-section {
   text-align: center;
   color: white;
-  font-size: 64px;
+  font-size: 80px;
 
-  animation: growText 2s;
+  animation: growText 1s;
   animation-timeline: view();
   animation-range-start: cover 50%;
   animation-range-end: cover 120%;
@@ -68,11 +76,17 @@
   opacity: 0;
 }
 
+.discover__subtitle-underline {
+  display: flex;
+  flex-direction: column;
+}
+
 .discover__projects {
   display: flex;
+  flex-direction: column;
   height: 110dvh;
   align-self: stretch;
-  padding-left: 200px;
+  gap: 110px;
 }
 
 .discover__projects-title {
@@ -85,10 +99,24 @@
   z-index: 100;
   opacity: 0;
 
+  padding-left: 200px;
+
   animation: displayText 1s forwards;
   animation-timeline: view();
   animation-range-start: cover 20%;
   animation-range-end: cover 40%;
+}
+
+.discover__projects-image {
+  width: 80%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 32px;
+  align-self: center;
+  animation: growImageStart 1s forwards;
+  animation-timeline: view();
+  animation-range-start: cover 0%;
+  animation-range-end: cover 50%;
 }
 
 .animate--1s {
@@ -97,11 +125,11 @@
 
 .animate--2s {
   animation: displayText 1s forwards;
-  animation-delay: 1s;
+  // animation-delay: 1s;
 }
 
 .scroll-text {
-  animation: growText 2s;
+  animation: growText 1s;
 }
 
 @keyframes fadeIn {
@@ -117,19 +145,31 @@
 @keyframes displayText {
   0% {
     opacity: 0;
-    margin-left: -50px;
+    margin-bottom: -100px;
   }
 
   100% {
     opacity: 1;
-    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+@keyframes growImageStart {
+  0% {
+    width: 60%;
+    height: 500px;
+  }
+
+  100% {
+    width: 90%;
+    height: 600px;
   }
 }
 
 @keyframes displayCodeFromLeft {
   0% {
     opacity: 0;
-    margin-left: -300px;
+    margin-left: -400px;
   }
 
   100% {
@@ -141,7 +181,7 @@
 @keyframes displayCodeFromRight {
   0% {
     opacity: 0;
-    margin-right: -300px;
+    margin-right: -400px;
   }
 
   100% {
@@ -152,9 +192,9 @@
 
 @keyframes growText {
   from {
-    font-size: 64px;
+    font-size: 80px;
   }
   to {
-    font-size: 130px;
+    font-size: 150px;
   }
 }
